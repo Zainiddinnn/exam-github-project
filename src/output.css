@@ -576,8 +576,36 @@ video {
   display: none;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 
 .flex-col {
@@ -638,22 +666,8 @@ video {
   background-color: rgb(255 204 204 / var(--tw-bg-opacity, 1));
 }
 
-.p-\[20px\] {
-  padding: 20px;
-}
-
 .p-\[25px\] {
   padding: 25px;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.py-\[15px\] {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .px-\[25px\] {
@@ -661,9 +675,29 @@ video {
   padding-right: 25px;
 }
 
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .py-\[\] {
   padding-top: ;
   padding-bottom: ;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pt-\[40px\] {
@@ -680,6 +714,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-\[40px\] {
@@ -706,6 +744,15 @@ video {
   line-height: 50px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.text-\[\#171717\] {
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#797979\] {
   --tw-text-opacity: 1;
   color: rgb(121 121 121 / var(--tw-text-opacity, 1));
@@ -716,9 +763,26 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 @media (min-width: 1024px) {
+  .lg\:my-\[70px\] {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
   }
 
   .lg\:flex-row {
@@ -737,23 +801,27 @@ video {
     text-align: start;
   }
 
-  .lg\:text-\[100px\] {
-    font-size: 100px;
+  .lg\:text-\[50px\] {
+    font-size: 50px;
   }
 
   .lg\:text-\[80px\] {
     font-size: 80px;
   }
 
-  .lg\:leading-\[117px\] {
-    line-height: 117px;
-  }
-
-  .lg\:leading-\[7px\] {
-    line-height: 7px;
+  .lg\:leading-\[58px\] {
+    line-height: 58px;
   }
 
   .lg\:leading-\[97px\] {
     line-height: 97px;
+  }
+
+  .lg\:leading-\[\] {
+    line-height: ;
+  }
+
+  .lg\:text-\[\] {
+    color: ;
   }
 }
